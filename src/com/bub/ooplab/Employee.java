@@ -32,6 +32,10 @@ public class Employee {
     System.out.println("My name is " + firstname);
   }
 
+  public void hello(String firstname) {
+    System.out.println("My name is " + this.firstname + "Hi, nice to meet you " + firstname);
+  }
+
   public int getSalary() {
     return this.salary;
   }
